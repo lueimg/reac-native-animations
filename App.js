@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import Animation4 from './pages/Animation4';
+import Animation5 from './pages/Animation5';
 import React from 'react';
 
 export default class App extends React.Component {
   render() {
     return (
-      <Animation4 />
+      <Animation5 />
     );
   }
 }
