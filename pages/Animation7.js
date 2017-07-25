@@ -39,10 +39,10 @@ class Animation3 extends Component {
             }),
             Animated.timing(this.animatedValue2, {
                 toValue: height,
-                duration: 1500
+                duration: 3000
             }),
             Animated.timing(this.animatedValue3, {
-                toValue: height,
+                toValue: 500,
                 duration: 1500
             }),
         ]).start()
