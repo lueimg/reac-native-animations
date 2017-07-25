@@ -24,9 +24,11 @@ class Animation1 extends Component {
     }
 
     componentDidMount() {
+        
         Animated.timing(this.animatedValue, {
             toValue: .3,
-            duration: 1000
+            duration: 3000,
+            easing: Easing.bounce
         }).start();
     }
 
