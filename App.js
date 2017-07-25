@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import Animation from './pages/Animation8';
+import Animation from './pages/Animation9';
 import React from 'react';
 
 export default class App extends React.Component {
